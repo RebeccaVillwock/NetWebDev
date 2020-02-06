@@ -39,7 +39,7 @@
         displayProductName.html("Schoggi Schokolade");
     });
 
-    //close toast with enter
+    //close toast with escape
     $(document).on('keyup', function (event) {
         if (event.key === "Escape") {
             $('#toast').toast('hide');
